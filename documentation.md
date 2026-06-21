@@ -26,14 +26,14 @@ Builders are in ".xlsx" format and placed in the "data/build-orders" folder. The
 - For techs it should be 1 (it can't detect if the same tech is researched multiple times).
 
 **The following *options* are available**
-- *<num> drop-res*: drop resourses to get the first <num> items more quickly.
-- *<num> buy-res*: buy resourses to get the first <num> items more quickly.
-- *cancel-queue*: cancel the relevant building queue to get a research more quickly.
-- *<num> vill-f/w/s/g*: specify <num> villagers of a particular type should build a building item.
-- *build-forward*: building item should be built in a forward position.
-- *wall-team*: specify that a team wall should be built (only for <span style="color: blue; font-family: Consolas">palisade-wall</span> or <span style="color: blue; font-family: Consolas">stone-wall</span>).
-- *wall-player*: specify that a player wall should be built (only for <span style="color: blue; font-family: Consolas">palisade-wall</span> or <span style="color: blue; font-family: Consolas">stone-wall</span>).
-- *check-available*: checks that the tech tree-requirements are met before reserving resources for the item.
+- **<num> drop-res**: drop resourses to get the first <num> items more quickly.
+- **<num> buy-res**: buy resourses to get the first <num> items more quickly.
+- **cancel-queue**: cancel the relevant building queue to get a research more quickly.
+- **<num> vill-f/w/s/g**: specify <num> villagers of a particular type should build a building item.
+- **build-forward**: building item should be built in a forward position.
+- **wall-team**: specify that a team wall should be built (only for <span style="color: blue; font-family: Consolas">palisade-wall</span> or <span style="color: blue; font-family: Consolas">stone-wall</span>).
+- **wall-player**: specify that a player wall should be built (only for <span style="color: blue; font-family: Consolas">palisade-wall</span> or <span style="color: blue; font-family: Consolas">stone-wall</span>).
+- **check-available**: checks that the tech tree-requirements are met before reserving resources for the item.
 
 **Unit Selection**
 - You cannot train unique-units directly. Instead you must use <span style="color: blue; font-family: Consolas">my-unique-unit</span>. To train unique-ships, use <span style="color: blue; font-family: Consolas">my-unique-ship</span>.
@@ -137,12 +137,12 @@ If your AI plays on a map-style that it is not supposed to be compatible with, t
 ### 'options' tab
 ---
 This includes addtional options not found in the other tabs. They can be set to a single value, or one value for each age (fomat x,x,x,x)
-- *land-unit-percent* baseline percent of land units (vs water units). Though this may be changed situations.
-- *allow defensive spearmen* allow defensive spearmen for defending scout-rush.
-- *allow defensive monks* allow defensive monks for defending knight-rush.
-- *allow defensive siege* allow defensive siege for defending archer-rush.
-- *counter-unit-factor* determines how many counter units the AI will make; 0=few to 100=many.
-- *agressivness-factor* determines how likely attack will be triggered; 0=passive to 100=aggressive.
-- *micro-level* controls the strength of the military micro: 5=super-human, 4=expert-level, 3, 2, 1 gets progressively weaker.
-- *economy-speed* used to slow down training time to decrease difficulty.
-- *population-percent* used to reduce avaliable pop-cap to resuce difficulty.
+- **land-unit-percent**: baseline percent of land units (vs water units). Though this may be changed situations.
+- **allow defensive spearmen**: allow defensive spearmen for defending scout-rush.
+- **allow defensive monks**: allow defensive monks for defending knight-rush.
+- **allow defensive siege**: allow defensive siege for defending archer-rush.
+- **counter-unit-factor**: determines how many counter units the AI will make; 0=few to 100=many.
+- **agressivness-factor**: determines how likely attack will be triggered; 0=passive to 100=aggressive.
+- **micro-level**: controls the strength of the military micro: 5=super-human, 4=expert-level, 3, 2, 1 gets progressively weaker.
+- **economy-speed**: used to slow down training time to decrease difficulty.
+- **population-percent**: used to reduce avaliable pop-cap to resuce difficulty.
