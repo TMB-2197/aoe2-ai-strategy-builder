@@ -10,7 +10,7 @@ Builders are in ".xlsx" format and placed in the "data/build-orders" folder. The
     - **deps** sets a minmum number of other items that are required before getting this item. The syntax is '&lt;min-count&gt; &lt;item-dependency&gt;, ...' but &lt;min-count&gt; can be excluded for a count of 1.
     - **options** is used to set verious options that control how we get the item (see below).
 
-**Additional Info**
+**Item Syntax**
 - All items are in lower case, with spaces changed to '-'.
 - Unit items/deps must *always* be the base unit name, not an upgraded-unit or unit-line.
 - Research items are prefixed with 'ri-' followed by the research name.
@@ -26,10 +26,10 @@ Builders are in ".xlsx" format and placed in the "data/build-orders" folder. The
 - For techs it should be 1 (it can't detect if the same tech is researched multiple times).
 
 **The following *options* are available**
-- **<num> drop-res**: drop resourses to get the first <num> items more quickly.
-- **<num> buy-res**: buy resourses to get the first <num> items more quickly.
+- **&lt;num&gt; drop-res**: drop resourses to get the first &lt;num&gt; items more quickly.
+- **&lt;num&gt; buy-res**: buy resourses to get the first &lt;num&gt; items more quickly.
 - **cancel-queue**: cancel the relevant building queue to get a research more quickly.
-- **<num> vill-f/w/s/g**: specify <num> villagers of a particular type should build a building item.
+- **&lt;num&gt; vill-f/w/s/g**: specify &lt;num&gt; villagers of a particular type should build a building item.
 - **build-forward**: building item should be built in a forward position.
 - **wall-team**: specify that a team wall should be built (only for palisade-wall or stone-wall).
 - **wall-player**: specify that a player wall should be built (only for palisade-wall or stone-wall).
