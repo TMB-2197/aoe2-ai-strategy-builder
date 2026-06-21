@@ -1,3 +1,5 @@
+**This tool is still not ready. THis is just a preview of the documentation**
+
 # AOEII AI Strategy Builder
 
 ### A simple & flexible too to generate AIs script with your own custom strategies
@@ -26,3 +28,9 @@
 - Run 'bin/strategy_xx.exe' to generate your AI script
 - Fix any errors reported by the program
 - Test and update the build-order as required
+
+## Rules for releasing your AI
+- properly tested & optimized (it doesn't float resources; or fail to get build-order items)
+    - *you AI doens't have to be strong; just optimized*
+- cannot remove chats that were added automatically
+- must specify that is was created using the AI Strategy Builder and provide a link to this page
