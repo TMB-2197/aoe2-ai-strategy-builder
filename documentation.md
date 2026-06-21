@@ -14,15 +14,15 @@ Builders are in ".xlsx" format and placed in the "data/build-orders" folder. The
 - All items are in lower case, with spaces changed to '-'.
 - Unit items/deps must *always* be the base unit name, not an upgraded-unit or unit-line.
 - Research items are prefixed with 'ri-' followed by the research name.
-- You must use either <span style="color: blue; font-family: Consolas">gold-mining-camp</span> or <span style="color: blue; font-family: Consolas">stone-mining-camp</span> for mining-camps. 
-- You cannot use civ-specific dropsites like <span style="color: blue; font-family: Consolas">mule-cart</span>, <span style="color: blue; font-family: Consolas">folwark</span>, or <span style="color: blue; font-family: Consolas">settlement</span>. Just use regular dropsite names and the appropriate dropsite will be built.
-- deps of units can alternatively be classes (such as <span style="color: blue; font-family: Consolas">class-infantry</span>), or villager sets (such as <span style="color: blue; font-family: Consolas">villager-food</span>). In this case the count always refers to the total number currently on the map.
+- You must use either gold-mining-camp or stone-mining-camp for mining-camps. 
+- You cannot use civ-specific dropsites like mule-cart, folwark, or settlement. Just use regular dropsite names and the appropriate dropsite will be built.
+- deps of units can alternatively be classes (such as class-infantry), or villager sets (such as villager-food). In this case the count always refers to the total number currently on the map.
 
 **Item counts for *limit*/*deps***
 - For military units (except siege) it refers to the max count that existed throughout the game. E.g. if you set a limit of 5 militia which then are trained and killed in combat, no further militia will be trained.
 - For all other units it is the current count (including all upgrades /varients).
 - For dropsites, it includes all the various dropsits that may be used to gather the resource (and only if that resource exists nearby). 
-- For <span style="color: blue; font-family: Consolas">mill</span>, it only includes those with hunt/berries/fish nearby (not farms!).
+- For mill, it only includes those with hunt/berries/fish nearby (not farms!).
 - For techs it should be 1 (it can't detect if the same tech is researched multiple times).
 
 **The following *options* are available**
@@ -31,30 +31,30 @@ Builders are in ".xlsx" format and placed in the "data/build-orders" folder. The
 - **cancel-queue**: cancel the relevant building queue to get a research more quickly.
 - **<num> vill-f/w/s/g**: specify <num> villagers of a particular type should build a building item.
 - **build-forward**: building item should be built in a forward position.
-- **wall-team**: specify that a team wall should be built (only for <span style="color: blue; font-family: Consolas">palisade-wall</span> or <span style="color: blue; font-family: Consolas">stone-wall</span>).
-- **wall-player**: specify that a player wall should be built (only for <span style="color: blue; font-family: Consolas">palisade-wall</span> or <span style="color: blue; font-family: Consolas">stone-wall</span>).
+- **wall-team**: specify that a team wall should be built (only for palisade-wall or stone-wall).
+- **wall-player**: specify that a player wall should be built (only for palisade-wall or stone-wall).
 - **check-available**: checks that the tech tree-requirements are met before reserving resources for the item.
 
 **Unit Selection**
-- You cannot train unique-units directly. Instead you must use <span style="color: blue; font-family: Consolas">my-unique-unit</span>. To train unique-ships, use <span style="color: blue; font-family: Consolas">my-unique-ship</span>.
+- You cannot train unique-units directly. Instead you must use my-unique-unit. To train unique-ships, use my-unique-ship.
 - You cannot train certain civ-specific units directly; instead you must use another unit as a replacement. Most of the replacement units come from the same building
-    - <span style="color: blue; font-family: Consolas">archer</span> (<span style="color: blue; font-family: Consolas">cavalry-archer</span>)
-    - <span style="color: blue; font-family: Consolas">hand-cannoneer</span> (<span style="color: blue; font-family: Consolas">slinger</span>, <span style="color: blue; font-family: Consolas">grenadier</span>, <span style="color: blue; font-family: Consolas">xianbei-raider</span>)
-    - <span style="color: blue; font-family: Consolas">war-wagon</span> (<span style="color: blue; font-family: Consolas">elephant-archer</span>)
-    - <span style="color: blue; font-family: Consolas">skirmisher</span> (<span style="color: blue; font-family: Consolas">genitour</span>)
-    - <span style="color: blue; font-family: Consolas">eagle-scout</span> (<span style="color: blue; font-family: Consolas">condottiero</span>, <span style="color: blue; font-family: Consolas">champi-scout</span>, <span style="color: blue; font-family: Consolas">flemish-militia-trained</span>, <span style="color: blue; font-family: Consolas">fire-lancer</span>)
-    - <span style="color: blue; font-family: Consolas">huskarl</span> (<span style="color: blue; font-family: Consolas">jian-swordsman-healthy</span>)
-    - <span style="color: blue; font-family: Consolas">knight</span> (<span style="color: blue; font-family: Consolas">xolotl-warrior</span>, <span style="color: blue; font-family: Consolas">shrivamsha-rider</span>, <span style="color: blue; font-family: Consolas">hei-guang-cavalry</span>)
-    - <span style="color: blue; font-family: Consolas">mangonel</span> (<span style="color: blue; font-family: Consolas">mounted-trebuchet</span>)
-    - <span style="color: blue; font-family: Consolas">scorpion</span> (<span style="color: blue; font-family: Consolas">war-chariot-focus-fire</span>, <span style="color: blue; font-family: Consolas">rocket-cart</span>)
+    - archer (cavalry-archer)
+    - hand-cannoneer (slinger, grenadier, xianbei-raider)
+    - war-wagon (elephant-archer)
+    - skirmisher (genitour)
+    - eagle-scout (condottiero, champi-scout, flemish-militia-trained, fire-lancer)
+    - huskarl (jian-swordsman-healthy)
+    - knight (xolotl-warrior, shrivamsha-rider, hei-guang-cavalry)
+    - mangonel (mounted-trebuchet)
+    - scorpion (war-chariot-focus-fire, rocket-cart)
 - there are also a few unusual ones that come from a different building
-    - <span style="color: blue; font-family: Consolas">war-elephant</span> (<span style="color: blue; font-family: Consolas">steppe-lancer</span>)
-    - <span style="color: blue; font-family: Consolas">eagle-scout</span> (<span style="color: blue; font-family: Consolas">warrior-priest</span>, <span style="color: blue; font-family: Consolas">missionary</span>)
-- regarding <span style="color: blue; font-family: Consolas">cavalry-archer</span> (and <span style="color: blue; font-family: Consolas">genitor</span> when available), the AI will pick this replacement if it's better for the civ, insetead of <span style="color: blue; font-family: Consolas">archer</span> (or <span style="color: blue; font-family: Consolas">skirmisher</span>)
+    - war-elephant (steppe-lancer)
+    - eagle-scout (warrior-priest, missionary)
+- regarding cavalry-archer (and genitor when available), the AI will pick this replacement if it's better for the civ, insetead of archer (or skirmisher)
 
 **Further details**
 - You can start a wall with just a single wall piece and the rest will be slowly be built automatically. Other buildings, besides walls, may also be included in the wall.
-- *build-forward* for <span style="color: blue; font-family: Consolas">town-center</span> will try to build it in range of the enemy town-center. You can add the option *delete* to delete the starting <span style="color: blue; font-family: Consolas">town-center</span>.
+- *build-forward* for town-center will try to build it in range of the enemy town-center. You can add the option *delete* to delete the starting town-center.
 - *build-forward* on island-style maps will try to build on the enemy island. Villagers will be transported automatically.
 
 **Automatic items**
