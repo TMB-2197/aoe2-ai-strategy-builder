@@ -29,11 +29,11 @@ Builders are in ".xlsx" format and placed in the "data/build-orders" folder. The
 - *<num> drop-res*: drop resourses to get the first <num> items more quickly.
 - *<num> buy-res*: buy resourses to get the first <num> items more quickly.
 - *cancel-queue*: cancel the relevant building queue to get a research more quickly.
-- *<num> vill-f/w/s/g* specify <num> villagers of a particular type should build a building item.
-- *build-forward* building item should be built in a forward position.
-- *wall-team* specify that a team wall should be built (only for <span style="color: blue; font-family: Consolas">palisade-wall</span> or <span style="color: blue; font-family: Consolas">stone-wall</span>).
-- *wall-player* specify that a player wall should be built (only for <span style="color: blue; font-family: Consolas">palisade-wall</span> or <span style="color: blue; font-family: Consolas">stone-wall</span>).
-- *check-available* checks that the tech tree-requirements are met before reserving resources for the item.
+- *<num> vill-f/w/s/g*: specify <num> villagers of a particular type should build a building item.
+- *build-forward*: building item should be built in a forward position.
+- *wall-team*: specify that a team wall should be built (only for <span style="color: blue; font-family: Consolas">palisade-wall</span> or <span style="color: blue; font-family: Consolas">stone-wall</span>).
+- *wall-player*: specify that a player wall should be built (only for <span style="color: blue; font-family: Consolas">palisade-wall</span> or <span style="color: blue; font-family: Consolas">stone-wall</span>).
+- *check-available*: checks that the tech tree-requirements are met before reserving resources for the item.
 
 **Unit Selection**
 - You cannot train unique-units directly. Instead you must use <span style="color: blue; font-family: Consolas">my-unique-unit</span>. To train unique-ships, use <span style="color: blue; font-family: Consolas">my-unique-ship</span>.
