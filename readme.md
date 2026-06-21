@@ -1,4 +1,4 @@
-**This tool is still not ready. THis is just a preview of the documentation**
+**This tool is still not ready. This is just a preview of the documentation**
 
 # AOEII AI Strategy Builder
 

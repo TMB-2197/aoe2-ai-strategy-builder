@@ -7,7 +7,7 @@ Builders are in ".xlsx" format and placed in the "data/build-orders" folder. The
     - **limit** is the total number of items to get, or *-1* for no limit.
     - **eco-level** specifies the minimum economy level before we may get the item. This is roughly equal to the number of villagers (but may be increased in certain cituations).
     - **age-status** is the minimum age-status required before getting the item: 0=dark, 100=feudal, 200=castle, and 300=imperial. It increases gradually during age-up.
-    - **deps** sets a minmum number of other items that are required before getting this item. The syntax is '<min-count> <item-dependency>, ...' but <min-count> can be excluded for a count of 1.
+    - **deps** sets a minmum number of other items that are required before getting this item. The syntax is '&lt;min-count&gt; &lt;item-dependency&gt;, ...' but &lt;min-count&gt; can be excluded for a count of 1.
     - **options** is used to set verious options that control how we get the item (see below).
 
 **Additional Info**
