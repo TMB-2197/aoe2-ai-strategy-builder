@@ -2,7 +2,7 @@
 
 # AOEII AI Strategy Builder
 
-### A simple & flexible too to generate AIs script with your own custom strategies
+### A simple & flexible tool to generate AI scripts with your own custom strategies
 
 ![Project Image](MiniAiPlayer.png)
 
