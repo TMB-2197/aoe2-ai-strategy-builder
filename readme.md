@@ -4,6 +4,8 @@
 
 ### A simple & flexible too to generate AIs script with your own custom strategies
 
+![Project Image](MiniAiPlayer.png)
+
 ## How?
 - It uses a simple but flexible spreadsheet format to define the strategies
 - The provided exe then compiles the strategies into a complete working AI
