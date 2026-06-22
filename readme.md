@@ -2,7 +2,7 @@
 
 # AOEII AI Strategy Builder
 
-### A simple & flexible tool to generate AI scripts with your own custom strategies
+### A simple & flexible tool for generating AI scripts with your own custom strategies
 
 ![Project Image](MiniAiPlayer.png)
 
@@ -18,7 +18,7 @@
 - Age of Empires II (CD version) + UserPatch 1.5 + Wololo Kingdoms
 
 ## Compatible Settings
-- Map: any (including land, rivers, islands, migration, etc)
+- Map: any (including arabia, rivers, nomad, islands, migration, etc)
 - Civ: any (except custom civs, future expansions & civ changes)
 - Game mode: conquest; low to high resources; non-turbo
 
@@ -36,3 +36,5 @@
     - *you AI doens't have to be strong; just optimized*
 - cannot remove chats that were added automatically
 - must specify that is was created using the AI Strategy Builder and provide a link to this page
+- you cannot include any strategies that were released as part of any other AI
+
