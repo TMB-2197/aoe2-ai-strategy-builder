@@ -32,8 +32,8 @@
 - Test and update the build-order as required
 
 ## Rules for releasing your AI
-- properly tested & optimized (it doesn't float resources; or fail to get build-order items)
-    - *you AI doens't have to be strong; just optimized*
+- properly tested & optimized (it does not float resources; or fail to get build-order items)
+    - *you AI does not have to be strong; just optimized*
 - cannot remove chats that were added automatically
 - must specify that is was created using the AI Strategy Builder and provide a link to this page
 - you cannot include any strategies that were released as part of any other AI

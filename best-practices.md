@@ -8,8 +8,8 @@
 
 - You should not have dependencies of farms; this is usually a design flaw. Instead ensure you have adequate deps for your farm items.
 
-- For blacksmith researches you should use dependencies of unit classes rather than individual units.
+- For blacksmith researches, you should use dependencies of unit classes rather than individual units.
 
 - ri-horse-collar and ri-padded-archer-armor will be completely skipped for feudal-age if not included, so make sure you include them if desired
 
-- Using drop/buy options can speed up item timings but worsnens your economy in the long run. Best to avoid using it unless important.
+- Using drop/buy options can speed up item timings but worsens your economy in the long run. Best to avoid using it unless important.
