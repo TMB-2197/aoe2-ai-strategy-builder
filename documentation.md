@@ -94,6 +94,9 @@ This is used to control the villager distribution. The villager distribution is 
 - Vill-numbers may be adapted for civs and maps when not fully supported by the build-order.
 - Vill-numbers may be adapted by the control-system to avoid floating resources.
 
+**Note on age up techs**
+- These are not provided in the 'build-order' tab at all. Instead they are inferred automatically based on the 'A' column in the 'vill-numbers' tab.
+
 ### 'positions' tab
 This sets the allowed positions for the build-order. These should be either 0 for not-allowed, or 1 for allowed.
 - *1v1* allowed in 1v1 games.
