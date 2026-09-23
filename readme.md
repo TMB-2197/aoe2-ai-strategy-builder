@@ -9,7 +9,7 @@
 - Read the example build orders in 'data/build-orders/'
 - Read documentation.md and best-practices.md
 - Edit the existing build orders or replace with your own (don't touch 'generic.xlsx')
-- Go to the root folder; right-click and click on 'Open in Terminal'. Then run '.\bin\AiCompilerDE.exe' to generate the AI script.
+- Go to the root folder; right-click and click on 'Open in Terminal'. Then run '.\bin\AICompilerDE.exe' to generate the AI script.
 - Fix any errors reported by the program
 - Test and update the build-order as required
 
