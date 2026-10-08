@@ -24,6 +24,7 @@
 - The provided exe then compiles the strategies into a complete working AI
 - It uses the Immortal AI script as a base; designed with flexibility in mind
 - Despite being generated, the strategies can still be well optimized
+- No Programming or AI scripting knowledge is required! 
 
 ## Compatible Game versions
 - Age of Empires II (Definitive Edition)
